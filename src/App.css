@@ -17,15 +17,29 @@
   font-size: large;
 }
 
-
 /*============ End Existing CSS =============*/
+
 
 /*=================draggable================*/
 .main-container {
+  /* width: 98%;
+  height: 80%; */
   width: 1400px;
   height: 650px;
   border: 1px solid red;
   overflow: hidden;
+  transition: 0.5s;
+}
+
+.main-width {
+  width: 70%;
+  transition: 0.5s;
+}
+
+.main-height {
+  /* height: 75%; */
+  height: 400px;
+  transition: 0.5s;
 }
 
 
@@ -54,13 +68,14 @@
 
 .docked {
   transition: 0.5s;
+}
+
 /*=================End draggable================*/
 
 
 
-
-
 /* ============Bottom Panel CSS ====================*/
+
 .bottom-panel {
   position: fixed;
   bottom: 0;
@@ -104,22 +119,6 @@
   margin: 0;
 }
 
-
-/* .toggle-bottom-panel {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  right: 0;
-  top: 5px;
-  padding: 0 20px;
-  border-left: 1px solid lightgrey;
-  height: 40px;
-} */
-
-
-
-
-
 /* ============End Bottom Panel CSS ====================*/
 
 
@@ -150,8 +149,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-bottom: 1px solid lightgrey; */
-  /* border-right: 1px solid lightgrey; */
   width: 24px;
   height: 50px;
 }
@@ -160,9 +157,3 @@
   margin: 0 30px;
   width: 280px;
 }
-  
-/* .toggle-side-panel p {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-} */
