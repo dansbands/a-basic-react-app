@@ -38,11 +38,11 @@ class App extends Component {
   };
 
   toggleBottomPanel = () => {
-    this.setState({ bottomOpen: !this.state.bottomOpen });
+    this.setState({ bottomOpen: !this.state.bottomOpen, x: 20, y: 20 });
   };
 
   toggleSidePanel = () => {
-    this.setState({ sideOpen: !this.state.sideOpen });
+    this.setState({ sideOpen: !this.state.sideOpen, x: 20, y: 20 });
   };
 
   render() {

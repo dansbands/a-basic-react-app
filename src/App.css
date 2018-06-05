@@ -24,21 +24,21 @@
 .main-container {
   /* width: 98%;
   height: 80%; */
-  width: 1400px;
-  height: 650px;
+  width: 1380px;
+  height: 630px;
   border: 1px solid red;
   overflow: hidden;
   transition: 0.5s;
 }
 
 .main-width {
-  width: 70%;
+  width: 74%;
   transition: 0.5s;
 }
 
 .main-height {
   /* height: 75%; */
-  height: 400px;
+  height: 325px;
   transition: 0.5s;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .open {
-  height: 48vh;
+  height: 45vh;
   transition: 0.5s;
 }
 
