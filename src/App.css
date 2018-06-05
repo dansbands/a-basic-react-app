@@ -17,7 +17,10 @@
   font-size: large;
 }
 
+
 /*============ End Existing CSS =============*/
+
+/*=================draggable================*/
 .main-container {
   width: 1400px;
   height: 650px;
@@ -51,4 +54,115 @@
 
 .docked {
   transition: 0.5s;
+/*=================End draggable================*/
+
+
+
+
+
+/* ============Bottom Panel CSS ====================*/
+.bottom-panel {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid lightgrey;
+  width: 100%;
+  height: 50px;
+  transition: 0.5s;
 }
+
+.open {
+  height: 48vh;
+  transition: 0.5s;
+}
+
+.bottom-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid lightgrey;
+  height: 50px;
+  width: 100%;
+}
+
+.bottom-menu-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-top: 5px;
+  width: 20%;
+  margin-left: 40%;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+
+.bottom-menu-center:hover {
+  background-color: rgb(240,240,240);
+}
+
+.bottom-menu-center p {
+  margin: 0;
+}
+
+
+/* .toggle-bottom-panel {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  padding: 0 20px;
+  border-left: 1px solid lightgrey;
+  height: 40px;
+} */
+
+
+
+
+
+/* ============End Bottom Panel CSS ====================*/
+
+
+
+/* ============Side Panel CSS ====================*/
+
+.side-panel {
+  position: fixed;
+  top: 90px;
+  right: 0;
+  height: 800px;
+  width: 25px;
+  background-color: white;
+  z-index: 2;
+  border-left: 1px solid lightgrey;
+  transition: 0.5s;
+}
+
+.side-open {
+  width: 25%;
+  transition: 0.5s;
+}
+
+.toggle-side-panel {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 1px solid lightgrey; */
+  /* border-right: 1px solid lightgrey; */
+  width: 24px;
+  height: 50px;
+}
+
+.sidebar-content {
+  margin: 0 30px;
+  width: 280px;
+}
+  
+/* .toggle-side-panel p {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+} */
