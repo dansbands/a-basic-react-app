@@ -25,10 +25,7 @@ class App extends Component {
         </p>
         <div className={this.state.open ? "bottom-panel open" : "bottom-panel"}>
           <div className="bottom-menu">
-            <div className="bottom-menu-center">
-              <p>I'm a menu</p>
-            </div>
-            <div onClick={this.togglePanel} className="toggle-bottom-panel">
+            <div onClick={this.togglePanel} className="bottom-menu-center">
               <p>Toggle Panel</p>
             </div>
             <div>
