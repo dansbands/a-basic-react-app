@@ -17,7 +17,44 @@
   font-size: large;
 }
 
-/* ============End Existing CSS ====================*/
+
+/*============ End Existing CSS =============*/
+
+/*=================draggable================*/
+.main-container {
+  width: 1400px;
+  height: 650px;
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+
+.handle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  height: 50px;
+  width: 100%;
+  background: lightgrey;
+  cursor: grab;
+}
+
+.handle:active {
+  cursor: grabbing;
+}
+
+.phone {
+  border: 1px solid grey;
+  border-radius: 25px;
+  width: 200px;
+  height: 300px;
+  /* transition: 0.2s; */
+}
+
+.docked {
+  transition: 0.5s;
+/*=================End draggable================*/
 
 
 
@@ -122,8 +159,8 @@
 .sidebar-content {
   margin: 0 30px;
   width: 280px;
-
 }
+  
 /* .toggle-side-panel p {
   position: absolute;
   left: 10px;
