@@ -47,10 +47,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   height: 50px;
   width: 100%;
-  background: lightgrey;
+  background: black;
   cursor: grab;
 }
 
@@ -60,7 +60,7 @@
 
 .phone {
   border: 1px solid grey;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   width: 200px;
   height: 300px;
   /* transition: 0.2s; */
